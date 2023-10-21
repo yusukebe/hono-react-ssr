@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "dev": "wrangler dev --live-reload src/index.tsx",
+    "deploy": "wrangler deploy --minify src/index.tsx"
+  },
+  "dependencies": {
+    "hono": "^3.8.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230914.0",
+    "@types/react": "^18.2.31",
+    "@types/react-dom": "^18.2.14",
+    "wrangler": "^3.14.0"
+  }
+}
