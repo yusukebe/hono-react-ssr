@@ -3,6 +3,8 @@ dist
 .wrangler
 .dev.vars
 
+yarn-error.log
+
 # Change them to your taste:
 wrangler.toml
 package-lock.json
