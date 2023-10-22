@@ -9,8 +9,11 @@
       "esnext"
     ],
     "types": [
-      "@cloudflare/workers-types"
+      "@cloudflare/workers-types",
+      "node",
+      "vite/client",
     ],
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
   },
 }
